@@ -40,4 +40,22 @@ header {
   align-items: center;
   background-color: #ffffff;
   border-bottom: 4px solid #3A8479;
+}
+
+nav {
+  color: #484848;
+  height: 6em;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav img {
+  width: 70px;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
 }/*# sourceMappingURL=style.css.map */
