@@ -1,15 +1,12 @@
 /*Variables*/
 /*Mixins*/
 /*General Styling*/
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #F0F0F0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 body p {
   font-size: 16px;
@@ -146,4 +143,66 @@ main .cta-wrapper {
   margin: 0 auto;
   width: 60%;
   display: block;
+}
+.cta-1 p, .cta-2 p, .cta-3 p {
+  margin-bottom: 2em;
+}
+.cta-1 a, .cta-2 a, .cta-3 a {
+  background-color: #3A8479;
+  padding: 0.8em 1em;
+  border-radius: 8px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+}
+.cta-1 a:hover, .cta-2 a:hover, .cta-3 a:hover {
+  background-color: #133833;
+  transition: 0.4s ease-in-out;
+}
+
+/*Tekst og billede section*/
+.txt-img-section {
+  grid-column: 1/7;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+
+.tekst {
+  grid-column: 1/5;
+  background-color: #133833;
+  padding: 2em 4em 4em 4em;
+}
+.tekst p {
+  color: #F0F0F0;
+}
+.tekst p:nth-of-type(4) {
+  margin-bottom: 3em;
+}
+.tekst h2 {
+  text-align: left;
+  color: #fff;
+}
+
+.secondary-btn {
+  background-color: transparent;
+  padding: 0.8em 1em;
+  border-radius: 8px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  border: 2px solid #fff;
+}
+.secondary-btn:hover {
+  background-color: #fff;
+  color: #133833;
+  transition: 0.4s ease-in-out;
+}
+
+.billede {
+  grid-column: 5/8;
+  background-image: url(img/presentation.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }/*# sourceMappingURL=style.css.map */
