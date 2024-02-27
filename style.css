@@ -391,7 +391,7 @@ footer:nth-of-type(2) p {
   .kontaktform h3, .kontaktform p {
     margin: 0 0 0.5em 0;
   }
-  .secondary-form {
+  .section-form {
     display: flex;
     flex-direction: column;
   }
